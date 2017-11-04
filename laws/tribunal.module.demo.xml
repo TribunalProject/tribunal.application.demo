@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule>
+        <regex>テスト</regex>
+        <class>tribunal.module.demo.Demo</class>
+        <executors>
+            <executor>anyone</executor>
+        </executors>
+    </rule>
+
+    <rule>
+        <regex>(.*)から(.*)</regex>
+        <class>tribunal.module.demo.Demo2</class>
+        <executors>
+            <executor>anyone</executor>
+        </executors>
+    </rule>
+
+    <rule>
+        <regex>猫</regex>
+        <class>tribunal.module.demo.Demo3</class>
+        <executors>
+            <executor>anyone</executor>
+        </executors>
+    </rule>
+
+    <rule>
+        <regex>にゃー</regex>
+        <class>tribunal.module.demo.Demo3</class>
+        <executors>
+            <executor>HogeHoge</executor>
+        </executors>
+    </rule>
+</rules>
