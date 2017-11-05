@@ -10,13 +10,8 @@ repositories {
 }
 
 dependencies {
-    // origin
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile group: 'junit', name: 'junit', version: '4.12'
-
-    // core
-    compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
-    compile group: 'org.reflections', name: 'reflections', version: '0.9.10'
 }
 
 jar {
